@@ -1,0 +1,22 @@
+https://www.cafeteria.id/2018/08/cara-menjalankan-aplikasi-laravel-hasil.html
+
+ composer install
+
+1.Perintah ini akan menginstal librari-librari atau dependencies yang digunakan Laravel.
+
+Berikutnya, kita perlu membuat file .env berdasarkan dari file .env.example, caranya jalankan perintah:
+
+
+ copy .env.example .env
+
+2. Untuk pengguna Linux gunakan perintah:
+
+
+cp .env.example .env
+
+3. Setelah berhasil membuat file .env, beirkutnya jalankan perintah:
+
+
+php artisan key:generate
+
+4.ketikkan perintah di atas utk mengenerate key
